@@ -1,0 +1,7 @@
+---
+title: article 2
+date: 2016-03-05
+categories: test
+---
+
+This is the second article.
