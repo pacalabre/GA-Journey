@@ -7,12 +7,26 @@
 
 # Site settings
 title: Paul Calabrese - About the Journey
-email: your-email@domain.com
+email: pacalabre@gmail.com
 description: > # My name is Paul Calabrese and this is a blog documenting my journey through the Seattle based General Assembly Web Immersive boot camp.
 baseurl: "/GA-Journey" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: nmdTheAbstract
+github_username:  pacalabre
+linkedin_username: paul-calabrese-84707a47
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
 
 # Build settings
 markdown: kramdown
+permalink: /:title
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
